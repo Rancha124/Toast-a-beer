@@ -1,0 +1,28 @@
+.complete-details {
+  color: white !important;
+  text-decoration-color: white;
+}
+.name {
+  font-weight: 550;
+  font-size: 32px;
+}
+.tagline {
+  font-weight: 450;
+  font-size: 28px;
+}
+.inner-title {
+  font-size: 28px;
+  font-weight: 400;
+}
+.inner-data {
+  font-size: 24px;
+  font-weight: 300;
+}
+.ingredients {
+  font-size: 22px;
+  font-weight: 350;
+}
+.inner-ing-data > p {
+  font-size: 20px;
+  font-weight: 250;
+}

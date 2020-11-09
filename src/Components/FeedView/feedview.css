@@ -1,0 +1,56 @@
+.feedview {
+  color: white !important;
+  text-decoration-color: white;
+  position: relative;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  width: 750px;
+  text-align: center;
+  margin: 20px auto;
+  background-color: purple;
+  padding-bottom: 1px;
+}
+
+.name {
+  font-weight: 550;
+  font-size: 32px;
+}
+.tagline {
+  font-weight: 450;
+  font-size: 28px;
+}
+.description {
+  font-size: 18px !important;
+}
+.post_options {
+  background-color: gray;
+}
+
+.post_option > p {
+  margin-left: 10px;
+}
+.post_option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+
+.input-search > input {
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  width: 70%;
+  border: 2px solid lightgray;
+}
+.comment {
+  background-color: lightgrey;
+  width: 60%;
+  margin: auto;
+  border-radius: 15px;
+}
+.comment > p {
+  font-size: medium;
+  font-weight: 600;
+  padding: 5px 0px;
+  margin-top: 0px;
+  color: black;
+}

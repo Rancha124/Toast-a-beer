@@ -1,0 +1,40 @@
+/* styling a single image card*/
+.single-image-element > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.p-tag {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-items: center;
+  font-weight: 550;
+  height: auto;
+  background-color: white;
+  color: black;
+  width: 200px;
+  vertical-align: center;
+  text-align: center;
+  margin: auto;
+}
+.p-tag > span {
+  display: inline-block;
+  width: calc(100% - 25px);
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.p-tag::-webkit-scrollbar {
+  display: none;
+}
+.list {
+  align-items: center;
+  font-weight: 550;
+  height: auto;
+  color: white;
+  vertical-align: center;
+  text-align: center;
+  margin: auto;
+  height: 75%;
+  width: 120%;
+}

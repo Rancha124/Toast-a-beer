@@ -1,0 +1,17 @@
+.navbar {
+  background-color: yellowgreen;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  top: 0px;
+  z-index: 99;
+}
+.navbar > a {
+  color: white;
+  font-weight: 450;
+  outline: none;
+}
+.navbar > a:hover {
+  color: purple;
+  outline-style: none;
+}
